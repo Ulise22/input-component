@@ -1,0 +1,38 @@
+.sidebar {
+    background: #FAFBFD;
+    width: fit-content;
+    height: 100%;
+    padding: 35px 70px 35px 0;
+}
+
+.sidebar__title {
+    font-family: 'Poppins', sans-serif;
+    margin-left: 45px;
+    color: #090F31;
+    font-size: 13px;
+}
+
+.sidebar__title span {
+    color: #F7542E;
+}
+
+.sidebar__list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    list-style: none;
+    margin-left: 10px;
+    margin-top: 50px;
+    font-weight: 500;
+    font-size: 14px;
+    color: #9E9E9E;
+}
+
+.sidebar__list li {
+    cursor: pointer;
+}
+
+.sidebar__list__item {
+    font-weight: 700;
+    color: #090F31;
+}
