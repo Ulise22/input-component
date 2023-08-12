@@ -1,0 +1,20 @@
+.label {
+    color: #333333;
+    font-size: 12px;
+    margin-top: 16px;
+}
+
+.normal-input {
+    border: 1px solid #828282;
+    &:hover {
+        border: 1px solid #333333;
+    }
+    &:focus {
+        border: 1px solid #2962FF;
+        outline: none;
+    }
+}
+
+.normal-input:focus.label {
+    color: #2962FF;
+}

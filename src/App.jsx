@@ -9,7 +9,10 @@ export default function App () {
       <section>
         <h1 className='title'>Inputs</h1>
         <article>
-          <Input />
+          <div className='input__container'>
+            <code>&lt;Input /&gt;</code>
+            <Input />
+          </div>
         </article>
 
         <footer>
