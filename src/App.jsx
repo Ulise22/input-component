@@ -11,7 +11,47 @@ export default function App () {
         <article>
           <div className='input__container'>
             <code>&lt;Input /&gt;</code>
-            <Input />
+            <Input nameOfClass='normal-input' />
+          </div>
+        </article>
+        <article>
+          <div className='input__container'>
+            <code>&lt;Input error /&gt;</code>
+            <Input nameOfClass='error-input' />
+          </div>
+        </article>
+        <article>
+          <div className='input__container'>
+            <code>&lt;Input disabled /&gt;</code>
+            <Input nameOfClass='disabled-input' disabled={true} />
+          </div>
+        </article>
+        <article className='article__container'>
+          <div className='input__container'>
+            <code>&lt;Input helperText="Some intersting text" /&gt;</code>
+            <Input nameOfClass='normal-input' helperText="Some interesting text" />
+          </div>
+          <div className='input__container'>
+            <code>&lt;Input helperText="Some intersting text" error /&gt;</code>
+            <Input nameOfClass='error-input' helperText="Some interesting text" />
+          </div>
+        </article>
+        <article>
+          <div className='input__container'>
+            <code>&lt;Input error /&gt;</code>
+            <Input nameOfClass='error-input' />
+          </div>
+        </article>
+        <article>
+          <div className='input__container'>
+            <code>&lt;Input error /&gt;</code>
+            <Input nameOfClass='error-input' />
+          </div>
+        </article>
+        <article>
+          <div className='input__container'>
+            <code>&lt;Input error /&gt;</code>
+            <Input nameOfClass='error-input' />
           </div>
         </article>
 

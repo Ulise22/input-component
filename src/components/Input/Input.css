@@ -15,6 +15,22 @@
     }
 }
 
-.normal-input:focus.label {
+.normal-input:focus .label{
     color: #2962FF;
+}
+
+.error-input {
+    border: 1px solid #D32F2F;
+    &:hover {
+        border: 1px solid #333333;
+    }
+    &:focus {
+        border: 1px solid #D32F2F;
+        outline: none;
+    }
+}
+
+.disabled-input {
+    border: 1px solid #E0E0E0;
+    background-color: #F2F2F2;
 }
