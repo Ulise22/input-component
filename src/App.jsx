@@ -17,7 +17,7 @@ export default function App () {
         <article>
           <div className='input__container'>
             <code>&lt;Input error /&gt;</code>
-            <Input nameOfClass='error-input' />
+            <Input nameOfClass='error-input' error="error" />
           </div>
         </article>
         <article>
@@ -33,13 +33,17 @@ export default function App () {
           </div>
           <div className='input__container'>
             <code>&lt;Input helperText="Some intersting text" error /&gt;</code>
-            <Input nameOfClass='error-input' helperText="Some interesting text" />
+            <Input nameOfClass='error-input' helperText="Some interesting text" error="error" />
           </div>
         </article>
-        <article>
+        <article className='article__container'>
           <div className='input__container'>
-            <code>&lt;Input error /&gt;</code>
-            <Input nameOfClass='error-input' />
+            <code>&lt;Input startIcon /&gt;</code>
+            <Input nameOfClass='normal-input' />
+          </div>
+          <div className='input__container'>
+            <code>&lt;Input endIcon /&gt;</code>
+            <Input nameOfClass='normal-input' />
           </div>
         </article>
         <article>

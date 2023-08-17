@@ -34,3 +34,13 @@
     border: 1px solid #E0E0E0;
     background-color: #F2F2F2;
 }
+
+.helperText {
+    font-size: 10px;
+    color: #828282;
+}
+
+
+.error {
+    color: #D32F2F;
+}
