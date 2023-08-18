@@ -44,3 +44,47 @@
 .error {
     color: #D32F2F;
 }
+
+.startIcon__container {
+    padding-left: 40px;
+    position: relative;
+}
+
+.startIcon {
+    position: absolute;
+    color: #828282;
+    z-index: 3;
+    margin-top: 14px;
+    margin-left: 8px;
+}
+
+.endIcon__container {
+    position: relative;
+    padding-right: 40px;
+}
+
+.endIcon {
+    position: absolute;
+    color: #828282;
+    z-index: 3;
+    margin-left: -35px;
+    margin-top: 14px;
+}
+
+.sm-input {
+    padding: 10px 12px;
+    border: 1px solid #828282;
+}
+
+.fullwidth-input {
+    width: 100%;
+}
+
+.normal-textarea {
+    padding: 18px 12px;
+    border-radius: 8px;
+    border: 1px solid #828282;
+    width: 176px;
+    height: 150px;
+    resize: none;
+}

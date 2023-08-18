@@ -39,23 +39,39 @@ export default function App () {
         <article className='article__container'>
           <div className='input__container'>
             <code>&lt;Input startIcon /&gt;</code>
-            <Input nameOfClass='normal-input' />
+            <Input startIcon={true} nameOfClass='normal-input startIcon__container' />
           </div>
           <div className='input__container'>
             <code>&lt;Input endIcon /&gt;</code>
+            <Input endIcon={true} nameOfClass='normal-input endIcon__container' />
+          </div>
+        </article>
+        <article>
+          <div className='input__container'>
+            <code>&lt;Input value="text" /&gt;</code>
+            <Input nameOfClass='normal-input' value="Text" />
+          </div>
+        </article>
+        <article className='article__container'>
+          <div className='input__container'>
+            <code>&lt;Input size="sm" /&gt;</code>
+            <Input nameOfClass='sm-input' />
+          </div>
+          <div className='input__container'>
+            <code>&lt;Input size="md" /&gt;</code>
             <Input nameOfClass='normal-input' />
           </div>
         </article>
         <article>
           <div className='input__container'>
-            <code>&lt;Input error /&gt;</code>
-            <Input nameOfClass='error-input' />
+            <code>&lt;Input fullWidth /&gt;</code>
+            <Input nameOfClass='normal-input fullwidth-input' value="Text" />
           </div>
         </article>
         <article>
           <div className='input__container'>
-            <code>&lt;Input error /&gt;</code>
-            <Input nameOfClass='error-input' />
+            <code>&lt;Input multiline row="4" /&gt;</code>
+            <Input nameOfClass='normal-textarea' row={true} />
           </div>
         </article>
 
